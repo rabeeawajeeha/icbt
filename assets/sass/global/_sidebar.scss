@@ -1,0 +1,65 @@
+.sidenav {
+    width: 100px;
+    height: 100%;
+    position: fixed;
+    z-index: 199;
+    top: 0px;
+    left: 0px;
+    background-color: #f0f0f0;
+    overflow-x: hidden;
+    padding: 100px 30px 30px;
+    transition: width 0.4s linear;
+
+    a {
+        display: block;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        padding: 5px;
+        border-radius: 20px;
+
+        .icon {
+            display: block;
+            width: 60px;
+        }
+
+        .btnLabel {
+            font-size: 18px;
+            color: $brand2;
+            letter-spacing: 0;
+            text-align: left;
+            text-decoration: none;
+            display: none;
+            padding: 5px;
+
+        }
+
+        &:hover {
+            background: $brand1;
+
+            .icon svg g g {
+                fill: $white;
+                stroke: $brand1;
+            }
+
+            .btnLabel {
+                color: $white;
+            }
+        }
+    }
+
+    &.open {
+        width: 400px;
+
+        .btnLabel {
+            display: block;
+        }
+    }
+}
+
+.icon {
+    height: 60px;
+    width: 20px;
+    display: block;
+}

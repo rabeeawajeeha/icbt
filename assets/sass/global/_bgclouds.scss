@@ -1,0 +1,34 @@
+.cloud-bg {
+    position: absolute;
+    background-image: url("../img/cloud1.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    animation: animate 200s linear infinite;
+    z-index: -1;
+    width: 100%;
+    height: 150px;
+}
+
+.cloud-bg1 {
+    position: absolute;
+    background-image: url("../img/cloud2.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    animation: animate 300s linear infinite;
+    top: 250px;
+    z-index: -1;
+    width: 100%;
+    height: 200px;
+}
+
+.cloud-bg2 {
+    position: absolute;
+    background-image: url("../img/cloud1.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    animation: animate 600s linear infinite;
+    top: 400px;
+    z-index: -1;
+    width: 100%;
+    height: 200px;
+}

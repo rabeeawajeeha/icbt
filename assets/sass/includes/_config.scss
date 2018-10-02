@@ -1,0 +1,19 @@
+// Variables
+//Colours
+$brand1: #008fac;
+$brand2: #2E7599;
+$white: #FFFFFF;
+
+// Fonts
+$bodyFont: 'Open Sans',
+Helvetica,
+sans-serif;
+$headerFont: 'Playfair Display',
+serif;
+
+//Mixins
+@mixin media($breakpoint) {
+    @media only screen and (min-width: $breakpoint + px) {
+        @content;
+    }
+}

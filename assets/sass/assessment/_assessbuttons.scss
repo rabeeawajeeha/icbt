@@ -1,0 +1,60 @@
+.question-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.answer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 34px;
+    border: 10px solid #008FAC;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background: #E5FAFF;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.50);
+}
+
+.answer.checked {
+    /* Oval Copy: */
+    background: #008FAC;
+    border: 10px solid #E5FAFF;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.50), inset 0 2px 3px 9px rgba(107, 107, 107, 0.50);
+}
+
+.radiofield input[type="radio"] {
+    display: block;
+    position: absolute;
+    /*   left: -99999px; */
+}
+
+.ratingMeaning {
+    display: block;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    /* None: */
+    font-family: OpenSans;
+    font-size: 24px;
+    color: #2E7599;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.radiofield .rating {
+    display: block;
+    text-align: center;
+    font-family: OpenSans-Semibold;
+    font-size: 48px;
+    color: #008FAC;
+    letter-spacing: 0;
+    text-align: center;
+    /*   margin-left: -15px; */
+}
+
+.answer.checked .rating {
+    color: #fff;
+}
