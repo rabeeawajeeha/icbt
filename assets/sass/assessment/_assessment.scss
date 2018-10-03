@@ -1,6 +1,22 @@
 .question-container {
     display: flex;
     flex-direction: row;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 60%;
+    align-items: center;
+}
+
+.question2-container {
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+}
+
+.assesstitle {
+    text-align: center;
+    margin: 100px;
+
 }
 
 .answer {
@@ -27,7 +43,7 @@
 .radiofield input[type="radio"] {
     display: block;
     position: absolute;
-    /*   left: -99999px; */
+    left: -99999px;
 }
 
 .ratingMeaning {
@@ -57,4 +73,8 @@
 
 .answer.checked .rating {
     color: #fff;
+}
+
+.radiofieldDiv {
+    display: flex;
 }
