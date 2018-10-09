@@ -1,5 +1,9 @@
 @import 'includes/config';
 
+* {
+    box-sizing: border-box;
+}
+
 @import 'global/body';
 @import 'global/typography';
 @import 'global/bgclouds';
@@ -12,4 +16,4 @@
 
 @import 'assessment/assessment';
 
-@import 'login/login';
+// @import 'login/login';
